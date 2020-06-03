@@ -8,7 +8,8 @@ const getElement=(obj)=>{
             <div class="card-body">
                 <h4 class="card-title">by ${obj.author}</h4>
                 <p class="card-text">${obj.width}x${obj.height}</p>
-                <a href="${obj.url}" target='_blank' class="btn btn-primary">View on unsplash</a>
+                <a href="${obj.url}" style="margin:4px" target='_blank' class="btn btn-primary">View on unsplash</a>
+                <a href="${obj.download_url}" style="margin:4px" class="btn btn-primary" download='image'>Download</a>
             </div>
         </div>`
         )
